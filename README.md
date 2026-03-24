@@ -1,4 +1,5 @@
 # OT PC Company - Official Website
+https://takazikano.github.io/LTRS
 
 A modern, responsive website for OT PC Company featuring a homepage, information hub, online store, and community platform.
 
