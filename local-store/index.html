@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pazarite - LazarusTech RS</title>
+    <link rel="stylesheet" href="../shared/shared-styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="../homepage/index.html" class="nav-logo">
+                <img src="./images/otpc-logo.png" alt="LazarusTech RS" class="logo-image">
+                <span class="logo-text">LazarusTech RS</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="../homepage/index.html">POČETNA</a></li>
+                <li><a href="../information/index.html">INFORMACIJE</a></li>
+                <li><a href="../online-store/index.html">USLUGE</a></li>
+                <li><a href="index.html" class="active">PAZARITE</a></li>
+            </ul>
+
+            <div class="nav-socials">
+                <a href="" class="social-btn" data-social="discord" title="Discord">💬</a>
+                <a href="" class="social-btn" data-social="github" title="Support Page">🌐</a>
+                <a href="" class="social-btn" data-social="youtube" title="YouTube">▶</a>
+                <a href="" class="social-btn" data-social="tiktok" title="TikTok">🎵</a>
+            </div>
+            <button class="mobile-menu-toggle" type="button" onclick="toggleMobileMenu()" aria-label="Otvori navigaciju" aria-expanded="false">
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Pazarite u LazarusTech RS</h1>
+                <p class="page-description">Digitalno tržište tehnologije sa privatnim radionama u Srbiji</p>
+            </div>
+        </section>
+
+        <!-- Store / Prodavnica Section -->
+        <section class="store-section">
+            <div class="container">
+                <h2 class="section-title">Naša Prodavnica - KupujemProdajem Profili</h2>
+                <p class="section-subtitle">Sve LazarusTech RS proizvodie i usluge dostupni na ovim KP profilima</p>
+
+                <div class="store-cards-grid">
+                    <a class="store-card" data-animate data-kp="veletech">
+                        <div class="store-header">
+                            <div class="store-icon">🏪</div>
+                            <h3>VeleTech Servis</h3>
+                        </div>
+                        <p class="store-label">LazarusTech RS - KP Profil 1</p>
+                        <p class="store-content">Glavna linija računarskih komponenti i kompletnih sistema</p>
+                        <p class="store-note">Kliknite da otvorite profil →</p>
+                    </a>
+
+                    <a class="store-card" data-animate data-kp="comtech">
+                        <div class="store-header">
+                            <div class="store-icon">🏪</div>
+                            <h3>ComTech Servis</h3>
+                        </div>
+                        <p class="store-label">LazarusTech RS - KP Profil 2</p>
+                        <p class="store-content">Specijalizirana oprema, dodatni delovi i oprema</p>
+                        <p class="store-note">Kliknite da otvorite profil →</p>
+                    </a>
+
+                    <a class="store-card" data-animate data-kp="lazarus">
+                        <div class="store-header">
+                            <div class="store-icon">🏪</div>
+                            <h3>Lazarus Tech Servis</h3>
+                        </div>
+                        <p class="store-label">LazarusTech RS - KP Profil 3</p>
+                        <p class="store-content">Korišćena oprema, povoljni proizvodi i specijalne ponude</p>
+                        <p class="store-note">Kliknite da otvorite profil →</p>
+                    </a>
+                </div>
+
+                <div class="store-info" data-animate>
+                    <h3>Zašto KupujemProdajem?</h3>
+                    <p>Koristimo KupujemProdajem kao platformu jer je to pouzdan sistem sa sigurnom transakcijom, mogućnosćom brze komunikacije i mogućnost provere povratnih informacija od drugih kupaca. Na KP vam pokazujemo tačno šta je dostupno, sa fotografijama
+                        i detaljnim opisima svakog proizvoda.</p>
+                    <p><strong>Sve tri stranice su LazarusTech RS profili.</strong> Slobodno nas kontaktirajte na bilo kom od njih!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Physical Location Info -->
+        <section class="location-section">
+            <div class="container">
+                <div class="location-card" data-animate>
+                    <div class="location-icon">🌐</div>
+                    <h2>Bez konkretnih fizičkih lokacija</h2>
+                    <p>
+                        LazarusTech RS radi u potpunosti digitalno kroz naše KP profile i ekskluzivne privatne radionice. To nam omogućava da služimo kupce u Srbiji sa personalizovanom, visokokvalitetnom uslugom bez geografijskih ograničenja.
+                    </p>
+                    <div class="location-details">
+                        <div class="detail-item">
+                            <span class="detail-icon">🔧</span>
+                            <h3>Privatne Radionice</h3>
+                            <p>Sastavka, popravka i modifikacija po narudbini u našim privatnim radionicama</p>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">🌍</span>
+                            <h3>Dostava U Srbiji</h3>
+                            <p>Služimo samo kupce u Srbiji sa pouzdan shipping i brz odgovore</p>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">💻</span>
+                            <h3>Digitalno Prvo</h3>
+                            <p>Sve transakcije, konsultacije i narudžbe kroz naše online platforme</p>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">💸</span>
+                            <h3>Dostupan i otkup</h3>
+                            <p>Otkup komponenata i uredjaja po dogovoru u našim privatnim radionicama</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <span class="detail-icon">🏦</span>
+                            <h3>Uplata preko PostNet ili lično</h3>
+                            <p>Opcija plaćanja u gotovini direktno u rukama, ili preko PostNet terminala za vašu sigurnost.</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <span class="detail-icon">🔐</span>
+                            <h3>Transakcije i garancije se beleže na serveru</h3>
+                            <p>Sve narudžbe, servisni zahtevi i garancije beleže se centralizovano na sigurnom serveru LazarusTech RS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Povratne Informacije Korisnika</h2>
+            <p class="section-subtitle">Šta naši korisnici misle o LazarusTech RS</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-animate>
+                    <div class="testimonial-avatar">👨‍💼</div>
+                    <div class="testimonial-content">
+                        <h3>Marko iz Beograda</h3>
+                        <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
+                        <p class="testimonial-text">"Sastavili su mi računar baš kako sam trebao. Odličan kvalitet i garancija od 2 godine je moj mir. Sve radi savršeno!"</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-animate>
+                    <div class="testimonial-avatar">👨‍💻</div>
+                    <div class="testimonial-content">
+                        <h3>Milan iz Kragujevca</h3>
+                        <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
+                        <p class="testimonial-text">"Naručio sam kroz KP i sve je stigo kako obećano. Kvalitetan proizvod, odličan popust. Sigurno ću ponovo!"</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-animate>
+                    <div class="testimonial-avatar">👩‍🔧</div>
+                    <div class="testimonial-content">
+                        <h3>Anja iz Novog Sada</h3>
+                        <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
+                        <p class="testimonial-text">"Kupila sam kompletan PC paket preko KP profila. Brza isporuka, super cena i odlična komunikacija. Top preporuka!"</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-animate>
+                    <div class="testimonial-avatar">👩‍💼</div>
+                    <div class="testimonial-content">
+                        <h3>Katarina iz Zrenjanina</h3>
+                        <p class="testimonial-rating">⭐⭐⭐⭐⭐</p>
+                        <p class="testimonial-text">"Brza podrška i tačna procena troškova. Montaža je bila profesionalna i računar je radi izuzetno brzo."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 LazarusTech RS. Sva prava zadržana. Specijalizovani za sve vaše računarske potrebe.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../shared/shared-script.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
